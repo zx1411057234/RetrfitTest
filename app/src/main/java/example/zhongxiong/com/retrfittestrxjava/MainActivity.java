@@ -30,6 +30,7 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //再次提交测试
         Retrofit mRetrofit = new Retrofit.Builder()
                 .baseUrl("https://www.baidu.com/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
